@@ -1,0 +1,167 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #434455;
+    background-color: #FFFFFF;
+}
+
+ul, ol {
+	list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+h1,h2,h3,h4,h5,h6 {
+ color: #2E2F42;
+ font-weight: 700;
+ font-style: normal;
+ font-size: 36px;
+ line-height: 1.11;
+ letter-spacing: 0.02em;
+ text-transform: capitalize;
+}
+
+p {
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em
+}
+
+.header {
+    background-color: #FFFFFF;
+}
+
+
+.studio-color {
+    color: #2E2F42;
+}
+
+.studio-color-scd {
+    color: #f4f4fd;
+}
+
+.webstudio {
+    color:  #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.nav-ul {
+    color: #2E2F42;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
+.nav-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.nav-item-link:hover, 
+.nav-item-link:focus {
+    color: #404bbf;
+}
+
+.address {
+    color: #434455;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.address-item:hover,
+.address-item:focus {
+    color: #404bbf;
+}
+
+.hero {
+    background-color: #2E2F42;
+}
+
+.title {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+.button {
+    font-family: "Roboto", sans-serif;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    cursor: pointer;
+    letter-spacing: 0.04em;
+}
+
+.button:hover,
+.button:focus {
+    background-color: #404BBF;
+}
+
+.features {
+    background-color: #FFFFFF;
+}
+
+.features-discription {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.features-p {
+    letter-spacing: 0.02em;
+    font-size: 16px;
+}
+
+.team {
+    background-color: #F4F4FD;
+    text-align: center;
+}
+
+.team-discription {
+    background-color: #FFFFFF;
+}
+
+.portfolio {
+    background-color: #FFFFFF;
+}
+
+.portfolio-h {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.footer {
+    background-color: #2E2F42;
+    font-family: "Raleway", sans-serif;
+    line-height: 1.17;
+    letter-spacing: 0.02em;
+}
+.footer-slogan {
+    color: #F4F4FD;
+}
