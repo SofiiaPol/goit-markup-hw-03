@@ -174,11 +174,17 @@ p {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 
 .features-p {
   letter-spacing: 0.02em;
   font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .team {
@@ -197,13 +203,13 @@ p {
     color: #2E2F42;
     text-align: center;
     padding: 120px;
-
 }
 
 .team-list {
     display: flex;
     flex-direction: row;
     gap: 24px;
+    padding-bottom: 120px;
 }
 
 .team-discription {
@@ -214,10 +220,18 @@ p {
   background-color: #ffffff;
 }
 
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+  column-gap: 32px;
+}
+
 .portfolio-h {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  gap: 32px;
 }
 
 .footer {
@@ -225,7 +239,14 @@ p {
   font-family: "Raleway", sans-serif;
   line-height: 1.17;
   letter-spacing: 0.02em;
+  padding-left: 156px;
+  padding-top: 140px;
+  padding-bottom: 100px;
 }
 .footer-slogan {
   color: #f4f4fd;
+  display: flex;
+  flex-direction: column;
+  padding-top: 16px;
+  max-width: 264px;
 }
