@@ -32,6 +32,7 @@ img {
 .container {
   max-width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Header styles START*/
@@ -44,7 +45,6 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 24px 0;
 }
 
 .studio-color {
@@ -68,11 +68,13 @@ img {
   flex-direction: row;
   align-items: center;
   flex-shrink: 0;
+  margin-right: 76px;
 }
 
 .nav-panel {
   display: flex;
   flex-direction: row;
+  align-items: center;
 }
 
 .nav-ul {
@@ -84,7 +86,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  margin-left: 76px;
+  padding: 24px 0;
 }
 
 .nav-item {
@@ -111,6 +113,10 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
+}
+
+.address-item {
+  padding: 24px 0;
 }
 
 .address-item:hover,
