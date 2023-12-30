@@ -86,13 +86,13 @@ img {
   display: flex;
   flex-direction: row;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .nav-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding: 24px 0;
 }
 
 .nav-item-link:hover,
