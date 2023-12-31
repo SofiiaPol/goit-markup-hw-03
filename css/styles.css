@@ -172,6 +172,7 @@ img {
 
 .features {
   background-color: #ffffff;
+  padding: 120px 0;
 }
 
 .features-list {
@@ -179,12 +180,14 @@ img {
   flex-direction: row;
   column-gap: 24px;
   padding: 120px 0;
+  gap: 24px;
 }
 
 .feature-item {
   display: flex;
   flex-direction: column;
   row-gap: 8px;
+  width: calc((100% - 72px) / 4);
 }
 
 .features-discription {
@@ -194,6 +197,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 32px;
+  margin-bottom: 8px;
 }
 
 .features-p {
