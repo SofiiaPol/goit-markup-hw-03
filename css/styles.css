@@ -35,6 +35,19 @@ img {
   padding: 0 15px;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* Header styles START*/
 .header {
   background-color: #ffffff;
@@ -222,24 +235,24 @@ img {
 }
 
 .team-h {
-    font-family: Roboto;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.72px;
-    text-transform: capitalize;
-    color: #2E2F42;
-    text-align: center;
-    padding: 120px;
-    margin-bottom: 72px;
+  font-family: Roboto;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  color: #2e2f42;
+  text-align: center;
+  padding: 120px;
+  margin-bottom: 72px;
 }
 
 .team-list {
-    display: flex;
-    flex-direction: row;
-    gap: 24px;
-    padding-bottom: 120px;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  padding-bottom: 120px;
 }
 
 .team-discription {
