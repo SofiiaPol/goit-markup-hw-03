@@ -176,6 +176,10 @@ img {
   padding: 120px 0;
 }
 
+.hidden-h {
+  visibility: hidden;
+}
+
 .features-list {
   display: flex;
   flex-direction: row;
