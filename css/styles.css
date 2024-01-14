@@ -8,6 +8,7 @@ ul,
 ol {
   list-style-type: none;
   margin: 0;
+  padding: 0;
 }
 
 a {
@@ -56,8 +57,7 @@ img {
 
 .header-container {
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  align-items: center;
 }
 
 .studio-color {
@@ -77,12 +77,8 @@ img {
   line-height: 1.17;
   text-transform: uppercase;
   letter-spacing: 0.03em;
-  flex-direction: row;
-  align-items: center;
-  flex-shrink: 0;
   margin-right: 76px;
   display: inline-block;
-  margin-bottom: 16px;
 }
 
 .nav-panel {
@@ -124,6 +120,7 @@ img {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  margin-left: auto;
 }
 
 .address > ul {
@@ -193,7 +190,6 @@ img {
   display: flex;
   flex-direction: row;
   column-gap: 24px;
-  padding: 120px 0;
   gap: 24px;
 }
 
@@ -208,11 +204,10 @@ img {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 32px; */
   margin-bottom: 8px;
-  text-align: center;
 }
 
 .features-p {
@@ -221,7 +216,7 @@ img {
   display: flex;
   flex-direction: column;
   gap: 8px;
-  text-align: center;
+  line-height: 1.2;
 }
 
 .team {
@@ -244,7 +239,6 @@ img {
   text-transform: capitalize;
   color: #2e2f42;
   text-align: center;
-  padding: 120px;
   margin-bottom: 72px;
 }
 
@@ -252,7 +246,6 @@ img {
   display: flex;
   flex-direction: row;
   gap: 24px;
-  padding-bottom: 120px;
 }
 
 .team-discription {
@@ -289,16 +282,16 @@ img {
 
 .footer {
   background-color: #2e2f42;
-  font-family: "Raleway", sans-serif;
-  line-height: 1.17;
-  letter-spacing: 0.02em;
-  border-bottom: 1px;
+  /* line-height: 1.17;
+  letter-spacing: 0.02em; */
+  /* border-bottom: 1px; */
   padding: 100px 0;
 }
 .footer-slogan {
   color: #f4f4fd;
-  display: flex;
-  flex-direction: column;
-  padding-top: 16px;
+  /* display: flex;
+  flex-direction: column; */
+  /* padding-top: 16px; */
+  line-height: 1.2;
   max-width: 264px;
 }
